@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-card-using-html-and-tailwind-css-NVF3znGGr)
 - [Live Site URL](https://ankushch27.github.io/Frontend-Mentor-Card-challenge/)
 
 ## My process
