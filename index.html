@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/tailwind.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <div
+      class="
+        flex
+        justify-center
+        items-center
+        min-h-screen
+        bg-pattern-mobile bg-no-repeat bg-contain bg-blue-100
+        px-6
+        py-11
+        sm:py-6
+        sm:bg-pattern-desktop
+      "
+    >
+      <div class="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden">
+        <img src="images/illustration-hero.svg" alt="" />
+        <div class="grid gap-5 p-6 text-center">
+          <div>
+            <h2 class="text-2xl text-gray-700 font-extrabold">Order Summary</h2>
+          </div>
+          <div class="text-gray-500 font-medium">
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device anywhere you like!
+          </div>
+          <div class="flex items-center p-4 bg-gray-50 rounded-lg">
+            <div><img src="images/icon-music.svg" alt="" /></div>
+            <div class="text-left ml-6">
+              <div class="text-gray-800 font-bold">Annual Plan</div>
+              <div class="text-gray-400 font-medium text-sm">$59.99/year</div>
+            </div>
+            <a
+              href="#"
+              class="
+                text-indigo-700
+                font-bold
+                underline
+                text-sm
+                ml-auto
+                transition-all
+                hover:text-indigo-400
+              "
+              >Change</a
+            >
+          </div>
+          <button
+            class="
+              bg-indigo-700
+              rounded-lg
+              text-white
+              font-semibold
+              p-3
+              w-full
+              shadow-3xl
+              transition-all
+              hover:bg-indigo-400
+            "
+          >
+            Proceed to Payment
+          </button>
+          <button class="text-gray-500 font-bold transition-all hover:text-gray-700">
+            Cancel Order
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
